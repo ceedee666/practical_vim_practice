@@ -12,9 +12,9 @@
 |---------------|-----------------------|
 | `f<char>`     | Scan line for the next occurence of char |
 | `F<char>`     | Scan the line for the previous char |
-| `/pattern<cr> | Scan document for the next occurence of the pattern |
-| `?pattern<cr> | Scan the document for the previous occurence of the pattern |
-| :s/target/replacement | Substitute target with replacement |
+| `/pattern<cr>`| Scan document for the next occurence of the pattern |
+| `?pattern<cr>`| Scan the document for the previous occurence of the pattern |
+| `:s/target/replacement` | Substitute target with replacement |
 
 # Repeating commands
 | Command       | Explanation           |
