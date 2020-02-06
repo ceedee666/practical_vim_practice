@@ -1,0 +1,6 @@
+/*
+ * Task: Cursor sits on h, word night should be deleted
+ * Solution: 
+ *   - Delete the whole word by typing daw
+ */
+The end is

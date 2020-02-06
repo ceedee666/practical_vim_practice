@@ -1,0 +1,4 @@
+/*
+ * Task: Cursor sits on h, word night should be deleted
+ */
+The end is nigh
