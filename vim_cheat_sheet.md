@@ -1,7 +1,10 @@
 # Text objects
 | Command       | Explanation           |
 |---------------|-----------------------|
+| `l`           | a single char         |
 | `aw`          | a word                |
+| `ap`          | a paragraph           |
+
 
 
 # Switching modes
@@ -12,6 +15,24 @@
 | `O`           | `ko` - Open a new line above |
 | `C`           | `c$` - Delete form current position to the end of the line |´
 | `s`           | `cl` - Delete current char and enter insert mode |
+
+
+# Operators
+Some important rules on operators:
+- Repeating an operator works on a whole line. E.g. `yy` copys the whole line.
+
+| Command       | Explanation           |
+|---------------|-----------------------|
+| `c`           | change                |
+| `d`           | delete                |
+| `y`           | yank (copy)           |
+| `[c]yy`       | copy [c] number of line |
+| `~g`          | Swap case             |
+| `gu`          | Make lowercase        |
+| `gU`          | Make uppercase        |
+| `>`           | Shift rigth           |
+| `<`           | Shift left            |
+| `=`           | Autoindent            |
 
 
 # Searching and replacing
@@ -46,3 +67,8 @@
 | `ctrl+ww`     | switch between windows |
 | `ctrl+wq`     | Quit a window |
 
+# Misc
+| Command       | Explanation          |
+|---------------|----------------------|
+| `<ctrl-a>`    | add on a number      |
+| `<ctrl-x>`    | sub on a number      |
