@@ -58,7 +58,6 @@ Some important rules on operators:
 | `.`           | Repeat previous edit |
 | `;`           | Repeat previous move/find |
 | `n`,`N`       | Repeat/reverse previous scan|
-| `;`           | Repeat previous move |
 
 
 # Multiple Windows
@@ -68,15 +67,15 @@ Some important rules on operators:
 | `gt`          | Go to the next tab   |
 | `gT`          | Go to the previous tab |
 | `vsp`         | vertically split windows |
-| `ctrl+ws`     | Split windows horizontally |
-| `ctrl+wv`     | Split windows vertically |
-| `ctrl+ww`     | switch between windows |
-| `ctrl+wq`     | Quit a window |
+| `<C-w>s`     | Split windows horizontally |
+| `<C-w>v`     | Split windows vertically |
+| `<C-w>w`     | switch between windows |
+| `<C-w>q`     | Quit a window |
 
 # Misc
 | Command       | Explanation          |
 |---------------|----------------------|
-| `<ctrl-a>`    | add on a number      |
-| `<ctrl-x>`    | sub on a number      |
+| `<C-a>`    | add on a number      |
+| `<C-x>`    | sub on a number      |
 | `zz`          | redraw screen with current line in center |
-| `<ctrl-r>=`   | enter the expression register (to perform calulations) |
+| `<C-r>=`   | enter the expression register (to perform calulations) |
