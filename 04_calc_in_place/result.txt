@@ -1,0 +1,9 @@
+/* 
+ * Task: Calcualte the totals in place.
+ * Sollution:
+ *   - press A to append to the line
+ *   - press  <C-r>= to open the command promt of the expression register
+ *   - calulat the total (6*35)
+ *   - press <enter>
+ * /
+6 chairs, each costing $35, totals $210

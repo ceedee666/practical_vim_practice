@@ -5,8 +5,6 @@
 | `aw`          | a word                |
 | `ap`          | a paragraph           |
 
-
-
 # Switching modes
 | Command       | Explanation           |
 |---------------|-----------------------|
@@ -15,6 +13,14 @@
 | `O`           | `ko` - Open a new line above |
 | `C`           | `c$` - Delete form current position to the end of the line |´
 | `s`           | `cl` - Delete current char and enter insert mode |
+
+
+# Insert Mode
+| Command       | Explanation           |
+|---------------|-----------------------|
+| `<C-h>`       | delete back one char       |
+| `<C-w>`       | delete back one word       |
+| `<C-u>`       | delete back to start of line       |
 
 
 # Operators
@@ -27,7 +33,7 @@ Some important rules on operators:
 | `d`           | delete                |
 | `y`           | yank (copy)           |
 | `[c]yy`       | copy [c] number of line |
-| `~g`          | Swap case             |
+| `g~`          | Swap case             |
 | `gu`          | Make lowercase        |
 | `gU`          | Make uppercase        |
 | `>`           | Shift rigth           |
@@ -72,3 +78,5 @@ Some important rules on operators:
 |---------------|----------------------|
 | `<ctrl-a>`    | add on a number      |
 | `<ctrl-x>`    | sub on a number      |
+| `zz`          | redraw screen with current line in center |
+| `<ctrl-r>=`   | enter the expression register (to perform calulations) |
