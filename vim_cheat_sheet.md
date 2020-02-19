@@ -13,6 +13,7 @@
 | `O`           | `ko` - Open a new line above |
 | `C`           | `c$` - Delete form current position to the end of the line |´
 | `s`           | `cl` - Delete current char and enter insert mode |
+| 'R'           | Enter replace mode |
 
 
 # Insert Mode
@@ -21,6 +22,16 @@
 | `<C-h>`       | delete back one char       |
 | `<C-w>`       | delete back one word       |
 | `<C-u>`       | delete back to start of line       |
+
+
+# Visual Mode
+| Command       | Explanation           |
+|---------------|-----------------------|
+| `v`           | character-wise visual mode|
+| `V`           | line-wise visual mode|
+| `<C-v>`       | block-wise visual mode|
+| `gv`          | reselect last selection|
+| `o`           | go to other end of selected text |
 
 
 # Operators
