@@ -45,7 +45,7 @@ Some important rules on operators:
 
 
 
-#Modes
+# Modes
 
 ## Switching modes
 | Command       | Explanation                                               |
@@ -55,7 +55,7 @@ Some important rules on operators:
 | `O`           | `ko` - Open a new line above                              |
 | `C`           | `c$` - Delete form current position to the end of the line| 
 | `s`           | `cl` - Delete current char and enter insert mode          |
-| 'R'           | Enter replace mode                                        |
+| `R`           | Enter replace mode                                        |
 
 
 ## Insert Mode
@@ -89,8 +89,8 @@ Some important rules on operators:
 ## Multiple Windows
 | Command       | Explanation          |
 |---------------|----------------------|
-| `:sp[lit] {file}     | Split window horizontally, load file in new window |
-| `:vsp[lit] {file}    | Split window vertically, load file in new window |
+| `:sp[lit] {file}`    | Split window horizontally, load file in new window |
+| `:vsp[lit] {file}`   | Split window vertically, load file in new window |
 | `<C-w>s`             | Split windows horizontally |
 | `<C-w>v`             | Split windows vertically |
 | `<C-w>w`             | Cycle between windows |
